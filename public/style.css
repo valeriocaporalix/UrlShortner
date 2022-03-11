@@ -1,0 +1,86 @@
+body {
+  font-family: monospace, sans-serif;
+  font-size: 18px;
+  color: #b3b3b3;
+  background-color: #333333;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+h1 {
+  margin-top: 70px;
+  text-shadow: 0px 5px 7px #8a8a8a
+}
+
+main {
+  padding: 0;
+  margin-top: 70px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+
+
+.user-stories li {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #2574a9;
+}
+
+form {
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+input[type='text'] {
+  width: 220px;
+  text-align: center;
+}
+
+#btn {
+  background: linear-gradient(-90deg, #003804, #003804, #00570a, #00570a, #00570a, #003804, #003804);
+  background-size: 600% 600%;
+  animation: gradient 30s ease infinite;
+  color: #b3b3b3;
+  border-radius: 9px;
+}
+
+#url_input {
+  border-radius: 9px;
+  box-shadow: 0px 0px 20px white
+}
+
+#fieldst {
+  border-radius: 9px;
+  margin-right: 10%;
+  margin-left: 10%
+}
+
+#footer {
+  margin-top: 35px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
